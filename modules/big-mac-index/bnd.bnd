@@ -1,0 +1,8 @@
+Bundle-Name: Big Mac Index 🍔 Exchange Rate (The Economist)
+Bundle-SymbolicName: com.github.lgdd.liferay.commerce.bigmacindex.exchangerate
+Bundle-Version: 1.0.0
+Export-Package: com.github.lgdd.liferay.commerce.bigmacindex.exchangerate.api
+Provide-Capability:\
+	liferay.resource.bundle;\
+		resource.bundle.aggregate:String="(bundle.symbolic.name=com.liferay.commerce.lang)";\
+		resource.bundle.base.name="content.Language";
